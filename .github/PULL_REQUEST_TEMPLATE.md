@@ -1,3 +1,5 @@
+[기여 절차](https://github.com/oksure/vibecoding/blob/main/CONTRIBUTING.md)와 [집필 기준](https://github.com/oksure/vibecoding/blob/main/docs/WRITING_STYLE.md)을 확인하고 작성해 주세요. 초안 제출 전에는 [AI 문체 점검 목록](https://github.com/oksure/vibecoding/blob/main/docs/AI_PROSE_CHECKLIST.md)을 참고해 자기 원고를 점검해 주세요. 개별 표현은 문맥에 맞게 판단합니다.
+
 ## 범위
 
 <!-- 어느 챕터/파일을 왜 바꾸는가. 한두 문장. -->

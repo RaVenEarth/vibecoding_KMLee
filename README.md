@@ -37,6 +37,20 @@ A living book on the history, art, and concepts of vibe coding, co-written on Gi
 
 운영 상세는 [SYLLABUS.md](SYLLABUS.md), 기여 방법은 [CONTRIBUTING.md](CONTRIBUTING.md)를 보라.
 
+## 집필 지침
+
+학생과 집필을 돕는 AI는 [집필 문서 안내](docs/README.md)에서 작업 순서를 확인한다.
+
+| 문서 | 역할 |
+| --- | --- |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 담당 파일, 원문 언어와 PR 제출 절차 |
+| [WRITING_STYLE.md](docs/WRITING_STYLE.md) | 문체, 출처 표기, 검증과 리뷰의 공통 집필 기준 |
+| [AI_PROSE_CHECKLIST.md](docs/AI_PROSE_CHECKLIST.md) | 초안 제출 전 자기 점검과 이후 문체 편집에 쓰는 참고 목록 |
+| [AGENTS.md](AGENTS.md) | AI의 수정 범위와 공통 작업 지침 |
+| [CLAUDE.md](CLAUDE.md) | 공통 에이전트 지침을 불러오는 파일 |
+
+초안은 WRITING_STYLE.md를 기준으로 작성하고 AI_PROSE_CHECKLIST.md를 참고해 스스로 점검한 뒤 PR로 공유한다. 장 단위 내용 정리와 문체 편집은 이후에도 이어가며, 저자의 주장이나 해석이 바뀌는 수정은 해당 저자의 확인을 받는다.
+
 ## 언어 정책
 
 - **한국어판(`ko/`)이 1차 원문**이고, 영어판(`en/`)은 AI가 자동 번역한다(`tools/translate`).
@@ -47,6 +61,13 @@ A living book on the history, art, and concepts of vibe coding, co-written on Gi
 
 ```
 TOPICS.md        꼭지 목록 + 담당 현황 (self-select 게시판)
+AGENTS.md        AI 공통 작업 지침
+CLAUDE.md        AGENTS.md를 불러오는 파일
+CONTRIBUTING.md  기여와 PR 제출 절차
+docs/
+  README.md              집필 문서 안내
+  WRITING_STYLE.md       공통 집필 기준
+  AI_PROSE_CHECKLIST.md  자기 점검과 문체 편집 참고 목록
 ko/              한국어판 (Quarto book, 기본 원문)
   chapters/      중주제: 중주제를 맡은 팀이 담당하여 집필
   sections/      소주제: 소주제를 맡은 팀원이 담당하여 집필
